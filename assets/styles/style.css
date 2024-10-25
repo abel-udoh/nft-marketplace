@@ -404,3 +404,44 @@ align-items: end;
   color: #fff;
   font-weight: 600px;
 }
+.highlightImage {
+  width: 100%;
+}
+
+#HowItWorks h3 {
+  color: #fff;
+  font-size: 34px;
+}
+#HowItWorks h5 {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+#HowItWorks p {
+  color: #fff;
+}
+
+.HowItWorksBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.HowItWorksBox1,
+.HowItWorksBox2,
+.HowItWorksBox3 {
+  background-color: #383838;
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.HowItWorksBox1,
+.HowItWorksBox2,
+.HowItWorksBox3 p {
+  text-align: center;
+}
+.HowItWorksImage {
+  margin-left: auto;
+  margin-right: auto;
+}
