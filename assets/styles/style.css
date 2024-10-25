@@ -345,3 +345,62 @@ body {
   color: #fff;
   font-size: 34px;
 }
+
+#discoverNFT h3 {
+  color: #fff;
+  font-size: 34px;
+}
+
+#discoverNFT p {
+  color: #fff;
+}
+#discoverNFT .btn {
+align-items: end;
+}
+
+.NFTBox {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+
+.DiscoverNFT_Avatar {
+  display: flex;
+  gap: 10px;
+}
+
+.DiscoverNFT_Avatar p {
+  margin-top: 5px;
+}
+
+.DiscoverNFT_AvatarImage {
+  object-fit: contain;
+}
+
+.DiscoverNFT_under {
+  background-color: #383838;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.DiscoverNFT_under h5 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.DiscoverNFT_price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.DiscoverNFT_price h5 {
+  color: #fff;
+  font-size: 12px;
+}
+.DiscoverNFT_price p {
+  color: #fff;
+  font-weight: 600px;
+}
