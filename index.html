@@ -410,19 +410,22 @@
     </section>
 
     <section id="Newsletter" class="section">
-      <div class="subscribe_Newsletter">
-        <h3></h3>
-        <p></p>
-      </div>
       <div class="subscribeNewsBox">
           <div class="subscribeImage">
             <img src="/images/images/Subscribe/Photo.png">
           </div>
           <div class="subscribeText">
-            <h4>Join Our Weekly Digest</h4>
-            <p>CHT is more than a token; it's a symbol of trust and appreciation for your loyalty</p>
+            <form method="POST">
+                <div>
+                  <h4>Join Our Weekly Digest</h4>
+                  <p>Get exclusive promotions and updates straight to your inbox.</p>
+                </div>
+                <div class="textinput">
+                  <input type="text" id="emailinput" name="Email" placeholder="Enter your email address" required>           
+                  <input type="submit" Value="Submit" id="SubmitBTN">
+                </div>
+            </form>
           </div>
-      </div>
     </section>
   </main>
   <footer></footer>
