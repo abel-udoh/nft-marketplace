@@ -496,24 +496,104 @@ margin-right: auto;
   width: 80%;
   }
 
-  
-.footerSection {
+
+.footerWidget {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
   gap: 40px;
 }
 
-.widget1 {
+.widgetLogo {
   display: flex;
 }
 
 .widget1 h4 {
   color: #fff;
   margin-left: 10px;
+  margin-top: 5px;
 }
 
 .widget1 p {
-  color: #fff;
+  color: #cccbcb;
   margin-top: 10px;
+}
+
+.socialIcon {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.JoinCommunity h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.FooterLink h4 {
+  color: #fff;
+}
+
+
+.FooterLink p {
+  color: #cccbcb;
+  margin-top: 5px;
+}
+
+.FooterLink {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.FooterSubscribe {
+  display: flex;
+}
+
+.Widget3 h4 {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Widget3 p {
+  color: #cccbcb;
+  font-size: 14px;
+} 
+
+#emailinput1 {
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 15px;
+  height: 50px;
+  width: 100%;
+}
+::placeholder {
+  font-size: 13px;
+}
+
+#SubscribeBTN {
+  color: #fff;
+  border-radius: 15px;
+  border: 1px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-left: -30px;
+  cursor: pointer;
+  height: 50px;
+  background-color: #a259ff;
+}
+
+hr {
+  margin-top: 40px;
+  color: #cccbcb;
+}
+
+.copyright p {
+color: #fff;
+text-align: center;
+margin-top: 15px;
 }
